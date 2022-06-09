@@ -52,3 +52,8 @@ dans la console:
         php bin/console doctrine:mapping:import App\\Entity annotation --path=src/Entity
 
 Vous trouverez dans le dossier `src/Entity` tous les mappings de vos tables !
+
+Pour rajouter les getters et les setters :
+
+        php bin/console make:entity --regenerate
+
