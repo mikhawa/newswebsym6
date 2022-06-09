@@ -67,3 +67,20 @@ dans la console :
 
         symfony composer req "admin:^4"
 
+Puis installez le dashboard :
+
+        symfony console make:admin:dashboard
+
+Et acceptez les paramètres par défaut
+
+Vous pouvez voir l'admin à cette adresse :
+
+https://127.0.0.1:8000/admin
+
+
+### Créez un CRUD dans cette admin
+
+Dans la console :
+
+        symfony console make:admin:crud
+        
