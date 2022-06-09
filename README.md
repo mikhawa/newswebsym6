@@ -5,11 +5,13 @@
 - PHP 8.0.*
 - MySQL (5.7 ou 8.* ) ou MariaDB (10.6.* )
 - Composer
-- Symfony.exe
+- Symfony.exe ( https://symfony.com/download ) 
 
 ## Installation
 
         symfony new newsweb --webapp
+        OU
+        composer create-project symfony/website-skeleton newsweb
         puis
         cd newsweb
 
@@ -43,4 +45,10 @@ Pour voir tous les outils utilisables depuis la console:
 
         php bin/console
 
+### Mapping des tables de votre DB
 
+dans la console:
+
+        php bin/console doctrine:mapping:import App\\Entity annotation --path=src/Entity
+
+Vous trouverez dans le dossier `src/Entity` tous les mappings de vos tables !
