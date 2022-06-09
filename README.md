@@ -6,6 +6,7 @@
 - MySQL (5.7 ou 8.* ) ou MariaDB (10.6.* )
 - Composer
 - Symfony.exe ( https://symfony.com/download ) 
+- npm et node.js
 
 ## Installation
 
@@ -77,10 +78,18 @@ Vous pouvez voir l'admin à cette adresse :
 
 https://127.0.0.1:8000/admin
 
+### installez npm et node
 
+        npm updtae
+        npm install
+
+puis créez un build
+
+        npm run build
 ### Créez un CRUD dans cette admin
 
 Dans la console :
 
         symfony console make:admin:crud
-        
+
+Et choisissez la table thearticle
