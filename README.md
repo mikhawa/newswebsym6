@@ -80,7 +80,7 @@ https://127.0.0.1:8000/admin
 
 ### installez npm et node
 
-        npm updtae
+        npm update
         npm install
 
 puis créez un build
