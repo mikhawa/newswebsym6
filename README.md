@@ -47,7 +47,7 @@ Pour voir tous les outils utilisables depuis la console:
 
 ### Mapping des tables de votre DB
 
-dans la console:
+dans la console :
 
         php bin/console doctrine:mapping:import App\\Entity annotation --path=src/Entity
 
@@ -56,4 +56,14 @@ Vous trouverez dans le dossier `src/Entity` tous les mappings de vos tables !
 Pour rajouter les getters et les setters :
 
         php bin/console make:entity --regenerate
+
+### Installez une administration
+
+Installation de EasyAdmin :
+
+https://symfony.com/doc/current/the-fast-track/fr/9-backend.html#configurer-easyadmin
+
+dans la console :
+
+        symfony composer req "admin:^4"
 
